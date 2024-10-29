@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.container {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.not-found-bg-dark {
+  background-color: #000000;
+}
+
+.not-found-bg-light {
+  background-color: #ffffff;
+}
+
+.container-img {
+  height: 150px;
+  width: 150px;
+}
+
+@media (min-width: 768px) {
+  .container-img {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+.not-found-title-light {
+  color: #ffffff;
+}
+
+.not-found-title-dark {
+  color: #334155;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 30px;
+  }
+}
+
+.msg {
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+@media (min-width: 768px) {
+  .msg {
+    font-size: 16px;
+  }
+}
+
+.not-found-text-light {
+  color: #f8fafc;
+}
+
+.not-found-text-dark {
+  color: #64748b;
+}
